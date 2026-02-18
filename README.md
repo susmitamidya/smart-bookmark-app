@@ -8,9 +8,10 @@ A simple fullstack bookmark manager where users can login using Google and manag
 - Vercel URL: https://smart-bookmark-app-orpin-ten.vercel.app
 
 ## GitHub Repo
-- Repo Link: 
+- Repo Link: https://github.com/susmitamidya/smart-bookmark-app
 ---
 ## Features
+
 - Google OAuth login only (no email/password)
 - Add bookmark (Title + URL)
 - Bookmarks are private per user (Row Level Security enabled)
@@ -54,8 +55,8 @@ using (auth.uid() = user_id);
 Supabase Dashboard → Database → Replication
 Enable realtime for:
 bookmarks
-
-#### Google OAuth Setup (Supabase Auth)
+------------------------------------------------------------
+## Google OAuth Setup (Supabase Auth)
 Steps:
 -Create a project in Google Cloud Console
 -Go to APIs & Services → Credentials
